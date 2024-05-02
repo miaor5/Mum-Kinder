@@ -116,11 +116,15 @@ margin-top: 8vh;
 
 
         &  .containerbody-categories_furniture{
-          
+          background-color: red;
           width: 21vw;
           height: 20vh;
           list-style: none;
           align-items: center;
+
+          img {
+            width: 50%;
+          }
         }
     }
 }
