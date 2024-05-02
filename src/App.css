@@ -1,38 +1,128 @@
-.App {
+
+#search {
+  color: red;
+  width: 15vw;
+  height: 5vh;
+}
+
+.header{
+
+  /*background-color: orange;*/
+& .signupnow{
+  background-color:papayawhip;
   text-align: center;
+  margin: 0;
+}
+&  .options {
+  /*background-color: aqua;*/
+  position: sticky;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+&  .myaccount {
+/*background-color: pink;*/
+display: flex;
+list-style: none;
+justify-content: space-around;
+font-weight: 700;
+
+
+
+   &  .myaccount-links{
+    color: black;
+
+   }
+   &  .logo{
+    font-weight: 800;
+    font-size: 28px;
+    color: rgba(201, 89, 44, 0.959);
+   }
+
+   &  .box{
+    
+   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+&  .list{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+list-style: none;
+justify-content: space-around;
+align-content: center;
+font-weight: 500;
+text-decoration: underline;
+font-size: 18px;
+margin-top: 8vh;
+
+}
 }
 
-.App-link {
-  color: #61dafb;
+.body{
+  &  .top-body{
+    display: flex;
+    justify-content:center;
+    height: 60vh;
+    margin-top: 7vh;
+
+    &  .top-body_text{
+      background-color: whitesmoke;
+      width: 100%;
+      margin-left: 50px;
+
+         .text{
+          padding-left: 5vw;
+          padding-top: 1vh;
+          padding-right: 5vw;
+          font-size: 20px;
+
+         }
+
+        .links{
+          display: flex;
+          justify-content: space-around;
+          list-style: none;
+          margin-top: 8vh;
+
+            .button{
+              border: 1px solid papayawhip;
+              padding: 10px;
+              background-color: papayawhip;
+              color: black; 
+              text-decoration: none; 
+              /*text-transform: uppercase;*/
+              font-family: 'Helvetica', sans-serif;
+              border-radius: 50px;
+              
+            }
+        }
+    }
+
+    &  .top-body_image{
+      margin-right: 50px;
+    
+    
+      & .image{
+        height: 60vh;
+        width: 40vw;
+      }
+
+    }
+  }
+
+  &  .containerbody{
+    &  .containerbody-categories{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content:space-around;
+
+
+        &  .containerbody-categories_furniture{
+          
+          width: 21vw;
+          height: 20vh;
+          list-style: none;
+          align-items: center;
+        }
+    }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
