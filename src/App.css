@@ -113,17 +113,19 @@ margin-top: 8vh;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content:space-around;
+      height: 100%;
 
 
         &  .containerbody-categories_furniture{
           background-color: red;
-          width: 21vw;
+          width: 20vw;
           height: 20vh;
           list-style: none;
           align-items: center;
 
           img {
-            width: 50%;
+            width: 90%;
+            height: 100%;
           }
         }
     }
