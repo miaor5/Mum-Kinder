@@ -4,7 +4,9 @@ function Card(props) {
       <img src={props.image} alt={props.alt} />
       <p>Up to 40 % Off</p>
       <p>Selected {props.category}</p>
-      <a href="">SHOP NOW</a>
+      <a className="bottom-categories" href="">
+        SHOP NOW
+      </a>
     </>
   );
 }

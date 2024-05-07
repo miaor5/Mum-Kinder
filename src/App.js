@@ -10,7 +10,7 @@ import bathing from './images/bathing.jpg';
 
 function App() {
   return (
-    <div>
+    <div className="page">
       <header className="header">
         <h3 className="signupnow">
           25 off your next order over 250 | Sign up now
