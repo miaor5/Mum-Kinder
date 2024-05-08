@@ -2,10 +2,10 @@ function Card(props) {
   return (
     <>
       <img src={props.image} alt={props.alt} />
-      <p>Up to 40 % Off</p>
-      <p>Selected {props.category}</p>
-      <a className="bottom-categories" href="">
-        SHOP NOW
+      <p className="discount">Up to {props.discount} % Off</p>
+      <p className="categories">Selected {props.category}</p>
+      <a className="bottom-shopnow" href="">
+        Shop Now
       </a>
     </>
   );

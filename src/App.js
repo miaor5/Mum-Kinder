@@ -1,5 +1,6 @@
 import './App.css';
 import Card from './components/card';
+import CommunityCard from './components/CommunityCard';
 import maria from './images/maria.jpg';
 import furniture from './images/furniture.jpg';
 import pushchair from './images/pushchair.jpg';
@@ -75,6 +76,7 @@ function App() {
                 alt={'Furniture'}
                 image={furniture}
                 category={'Furniture'}
+                discount={'20'}
               />
             </li>
             <li className="containerbody-categories_furniture">
@@ -82,16 +84,23 @@ function App() {
                 alt={'Pushchair'}
                 image={pushchair}
                 category={'Pushchair'}
+                discount={'15'}
               />
             </li>
             <li className="containerbody-categories_furniture">
-              <Card alt={'Clothing'} image={clothing} category={'Clothing'} />
+              <Card
+                alt={'Clothing'}
+                image={clothing}
+                category={'Clothing'}
+                discount={'25'}
+              />
             </li>
             <li className="containerbody-categories_furniture">
               <Card
                 alt={'Feeding & Weaning'}
                 image={FeedingWeaning}
                 category={'Feeding & Weaning'}
+                discount={'40'}
               />
             </li>
             <li className="containerbody-categories_furniture">
@@ -99,6 +108,7 @@ function App() {
                 alt={'Selected Toys & Gifts'}
                 image={ToysGifts}
                 category={'Selected Toys & Gifts'}
+                discount={'40'}
               />
             </li>
             <li className="containerbody-categories_furniture">
@@ -106,6 +116,25 @@ function App() {
                 alt={'Bathing & Changing'}
                 image={bathing}
                 category={'Bathing & Changing'}
+                discount={'50'}
+              />
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <p>Find out whats is happening in</p>
+          <h1>Our community</h1>
+          <ul>
+            <li>
+              <CommunityCard
+                image={
+                  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8bczkihoysU59qlGprpN2PQ_ufv3Nf5iaCg&s'
+                }
+                communitytitle={"Let's Talk Car Seat Appointments"}
+                description={
+                  'Helping you find and fit your perfect car seat, whether it is their first or next stage. Book your free appointment today'
+                }
               />
             </li>
           </ul>
