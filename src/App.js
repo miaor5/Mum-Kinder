@@ -1,6 +1,8 @@
 import './App.css';
 import Card from './components/card';
 import CommunityCard from './components/CommunityCard';
+import Footer from './components/footer';
+imp;
 import maria from './images/maria.jpg';
 import furniture from './images/furniture.jpg';
 import pushchair from './images/pushchair.jpg';
@@ -122,24 +124,63 @@ function App() {
           </ul>
         </div>
 
-        <div>
-          <p>Find out whats is happening in</p>
-          <h1>Our community</h1>
-          <ul>
-            <li>
+        <div className="community">
+          <p className="community-text">Find out whats is happening in</p>
+          <h1 className="community-title">Our community</h1>
+          <ul className="community-list">
+            <li className="container-community">
               <CommunityCard
                 image={
                   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8bczkihoysU59qlGprpN2PQ_ufv3Nf5iaCg&s'
                 }
                 communitytitle={"Let's Talk Car Seat Appointments"}
                 description={
-                  'Helping you find and fit your perfect car seat, whether it is their first or next stage. Book your free appointment today'
+                  'Helping you find and fit your perfect car seat, whether it is their first or next stage'
+                }
+              />
+            </li>
+            <li className="container-community">
+              <CommunityCard
+                image={
+                  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbbBz4nRiJMKdj-3gZ4RXddiIBE8Y9mbjjzntTGpddsA&s'
+                }
+                communitytitle={'Loved for live'}
+                description={
+                  'Give pre-loved baby products a new lease of life with our range of services'
+                }
+              />
+            </li>
+            <li className="container-community">
+              <CommunityCard
+                image={
+                  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ91uYi9YWe1gcuiRcjPvD9-apySvk_6uJAhw&s'
+                }
+                communitytitle={'Trade-In'}
+                description={
+                  'Receive a voucher when you return your used Mamas & Papas pushchair for it to be lovingly restored and re-sold'
                 }
               />
             </li>
           </ul>
         </div>
       </body>
+
+      <footer>
+        <div>
+          <h1>Sign up & Save</h1>
+          <p>
+            Sign up to our mailing list & hear about our latest offers & new
+            products, plus enjoy £25 off your next order over £250
+          </p>
+          <a href="">Sign up here</a>
+        </div>
+        <div>
+        <Footer
+        
+        />
+          </div>
+      </div>
+      </footer>
     </div>
   );
 }
