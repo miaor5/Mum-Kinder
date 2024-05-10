@@ -2,7 +2,6 @@ import './App.css';
 import Card from './components/card';
 import CommunityCard from './components/CommunityCard';
 import Footer from './components/footer';
-imp;
 import maria from './images/maria.jpg';
 import furniture from './images/furniture.jpg';
 import pushchair from './images/pushchair.jpg';
@@ -165,7 +164,7 @@ function App() {
         </div>
       </body>
 
-      <footer>
+      <footer className="footer">
         <div>
           <h1>Sign up & Save</h1>
           <p>
@@ -174,12 +173,45 @@ function App() {
           </p>
           <a href="">Sign up here</a>
         </div>
-        <div>
-        <Footer
-        
-        />
-          </div>
-      </div>
+        <div className="footer-link">
+          <Footer
+            title={'Shopping to Suit You'}
+            link={'Buying for a baby'}
+            link1={'Car Seat Appointments'}
+            link2={'Gift Cards'}
+            link3={'Pushchair Valet & Service'}
+            link4={'Klarna'}
+            link5={'Best Price Guarantee'}
+            link6={'Stores & Stockists'}
+            link7={'Refer a Friend'}
+            link8={'Seasonal Baby Events'}
+          />
+
+          <Footer
+            title={'Customer Care'}
+            link={'Track Your Order'}
+            link1={'Check Gift Card Balance'}
+            link2={'Make A Payment'}
+            link3={'Delivery, Collection & Returns Information'}
+            link4={'Help'}
+            link5={'Contact Us'}
+            link6={'Terms & Conditions'}
+            link7={'Privacy Policy'}
+            link8={'Cookie Policy'}
+          />
+
+          <Footer
+            title={'About Mamas & Papas'}
+            link={'About Us'}
+            link1={'Careers'}
+            link2={'Our Blog'}
+            link3={'Our Brands'}
+            link4={'Our Awards'}
+            link5={'Mamas & Papas - For the Future'}
+            link6={'Influencers & Affiliates'}
+            link7={'Media & Press'}
+          />
+        </div>
       </footer>
     </div>
   );
