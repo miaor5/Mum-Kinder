@@ -2,7 +2,6 @@ import './App.css';
 import Card from './components/card';
 import CommunityCard from './components/CommunityCard';
 import Footer from './components/footer';
-import maria from './images/maria.jpg';
 import furniture from './images/furniture.jpg';
 import pushchair from './images/pushchair.jpg';
 import clothing from './images/clothing.jpg';
@@ -165,15 +164,15 @@ function App() {
       </body>
 
       <footer className="footer">
-        <div>
+        <div className="singup">
           <h1>Sign up & Save</h1>
-          <p>
+          <p className="signup-p">
             Sign up to our mailing list & hear about our latest offers & new
             products, plus enjoy £25 off your next order over £250
           </p>
           <a href="">Sign up here</a>
         </div>
-        <div className="footer-link">
+        <div className="footer-links">
           <Footer
             title={'Shopping to Suit You'}
             link={'Buying for a baby'}

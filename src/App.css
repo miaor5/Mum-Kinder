@@ -213,17 +213,30 @@ border-radius: 5%;
   }
 }}
 
+}
 .footer{
   display: flex;
-  flex-direction: row;
-  background-color:rebeccapurple ;
+  flex-direction: column;
+  text-align: ;
+}
+.title-link{
+  text-align: start;
 
-  &  .footer-link{
-    display: flex;
-    flex-direction: column;
-  }
 }
 
+.singup{
+  background-color: red;
+}
 
-
+.footer-links{
+  background-color: gold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  height: 100%;
+}
+.footer-link{
+  list-style: none;
 }
