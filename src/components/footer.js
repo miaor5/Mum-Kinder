@@ -1,7 +1,7 @@
 function Footer(props) {
   return (
     <>
-      <div className="footer">
+      <div className="">
         <h3 className="title-link">{props.title}</h3>
         <ul>
           <li className="footer-link">

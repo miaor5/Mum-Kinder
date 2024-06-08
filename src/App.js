@@ -165,12 +165,14 @@ function App() {
 
       <footer className="footer">
         <div className="singup">
-          <h1>Sign up & Save</h1>
+          <h1 className="signup-title">Sign up & Save</h1>
           <p className="signup-p">
             Sign up to our mailing list & hear about our latest offers & new
             products, plus enjoy £25 off your next order over £250
           </p>
-          <a href="">Sign up here</a>
+          <a className="signup-bottom" href="">
+            Sign up here
+          </a>
         </div>
         <div className="footer-links">
           <Footer

@@ -216,27 +216,68 @@ border-radius: 5%;
 }
 .footer{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   text-align: ;
 }
 .title-link{
-  text-align: start;
+  text-align: center
 
 }
 
 .singup{
-  background-color: red;
+  background-color: navy;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 10px;
+  gap: 3vh;
+
+  .signup-title{
+    color: white;
+  }
+  .signup-p{
+    color:white;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  .signup-bottom{
+    /*border: rgb(35, 187, 149) 2px solid;
+width: 120px;
+height: 35px;
+padding-top: 3%;
+text-decoration: none;
+color:white;
+background-color: rgb(35, 187, 149);
+border-radius: 5%;*/
+border:rgb(35, 187, 149) 2px solid ;
+text-decoration: none;
+color:white;
+background-color: rgb(35, 187, 149);
+border-radius: 5%;
+  }
 }
 
 .footer-links{
-  background-color: gold;
+  padding-top: 3vh;
+  background-color: rgb(243, 240, 240);
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding-left: 7vw;
-  padding-right: 7vw;
+  justify-content: space-around;
+  padding-left: 1vw;
+  padding-right: 1vw;
   height: 100%;
+  width: 150vw;
+  padding-bottom: 30px;
 }
 .footer-link{
   list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color:darkblue;
 }
