@@ -26,8 +26,14 @@ function App() {
             <li className="logo">Mom & Kinder</li>
             <li>
               <div class="box">
-                <input type="search" id="search" placeholder="Search..." />
+                <input
+                  type="search"
+                  id="search"
+                  placeholder="Search..."
+                  className="search-mobile"
+                />
               </div>
+              <li className="hamburger-icono">icono hamburgesa</li>
             </li>
           </ul>
           <ul className="list">
