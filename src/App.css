@@ -10,12 +10,13 @@
 
 .header{
 
-& .signupnow{
-  background-color:rgb(247, 243, 243);
+ .signupnow{
+  background-color:blueviolet;
   text-align: center;
-  margin: 0;
   font-size: 1rem;
   width: 100%;
+  margin: 0px;
+ 
 }
 &  .options {
   /*background-color: aqua;*/
@@ -290,6 +291,10 @@ a:hover{
 
 
 @media (max-width:576px){
+  .signupnow{
+    width: 500px;
+    background-color: red;
+  }
   .search-mobile{
    visibility: hidden;
   }
@@ -298,7 +303,7 @@ a:hover{
   }
   .hamburger-icono{
     visibility: visible;
-    color:pink;
+    color: red;
   }
   .list{
     visibility: hidden;
@@ -311,7 +316,6 @@ a:hover{
     width: 50%;
   }
   .myaccount{
-    padding-left: 6vw;
     justify-content: space-between;
     gap: 1vw;
   }
@@ -319,11 +323,11 @@ a:hover{
     font-size: 1rem;
   }
   .top-body{
-    width: 200px;
    height: 40vh;
-   
   }
+  
   .top-body_text{
+    background-color: yellow;
     width: 100%;
       margin-left: 50px;
 
@@ -341,7 +345,7 @@ a:hover{
           margin-top: 8vh;
 
             .button{
-              border: 1px solid papayawhip;
+              border: 1px solid blue;
               padding: 10px;
               background-color: papayawhip;
               color: black; 
