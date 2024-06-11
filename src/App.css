@@ -297,6 +297,7 @@ a:hover{
   }
   .hamburger-icono{
     visibility: visible;
+    color: blue;
   }
   .list{
     visibility: hidden;
