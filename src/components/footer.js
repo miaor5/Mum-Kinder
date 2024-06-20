@@ -3,7 +3,7 @@ function Footer(props) {
     <>
       <div className="">
         <h3 className="title-link">{props.title}</h3>
-        <ul>
+        <ul className="nav">
           <li className="footer-link">
             <a href="">{props.link}</a>
           </li>

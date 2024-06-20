@@ -8,6 +8,7 @@ import clothing from './images/clothing.jpg';
 import FeedingWeaning from './images/FeedingWeaning.jpg';
 import ToysGifts from './images/ToysGifts.jpg';
 import bathing from './images/bathing.jpg';
+import { Carousel } from 'nuka-carousel';
 
 function App() {
   return (
@@ -127,6 +128,52 @@ function App() {
             </li>
           </ul>
         </div>
+
+        <Carousel
+          autoplay={true}
+          autoplayInterval={1500}
+          showArrows
+          showDots
+          wrapMode="wrap"
+          scrollDistance="slide"
+          swiping={false}
+          className="carousel"
+        >
+          <div className="carousel-container">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8bczkihoysU59qlGprpN2PQ_ufv3Nf5iaCg&s"
+              className="hola"
+            />
+            <h2>Let's Talk Car Seat Appointments</h2>
+            <p>
+              Helping you find and fit your perfect car seat, whether it is
+              their first or next stage
+            </p>
+          </div>
+
+          <div className="adios">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbbBz4nRiJMKdj-3gZ4RXddiIBE8Y9mbjjzntTGpddsA&s"
+              className="hola"
+            />
+            <h2>Loved for live</h2>
+            <p>
+              Give pre-loved baby products a new lease of life with our range of
+              services
+            </p>
+          </div>
+          <div className="adios">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ91uYi9YWe1gcuiRcjPvD9-apySvk_6uJAhw&s"
+              className="hola"
+            />
+            <h2>Trade-In</h2>
+            <p>
+              Receive a voucher when you return your used Mamas & Papas
+              pushchair for it to be lovingly restored and re-sold
+            </p>
+          </div>
+        </Carousel>
 
         <div className="community">
           <p className="community-text">Find out whats is happening in</p>
