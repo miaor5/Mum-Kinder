@@ -130,7 +130,7 @@ function App() {
         </div>
 
         <Carousel
-          autoplay={true}
+          autoplay={false}
           autoplayInterval={1500}
           showArrows
           showDots
