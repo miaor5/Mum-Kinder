@@ -277,6 +277,9 @@ a:hover{
   color:darkblue;
 }
 
+.community-mobile{
+  visibility: collapse;
+}
 
 @media (max-width:576px){
   .signupnow{
@@ -369,16 +372,19 @@ a:hover{
     background-color: red;
   }
 
+  .community-mobile{
+    visibility: visible;
   }
-
-  .hola{
-  width: 370px;
-  height: 50vh;
-  
+  .community{
+    visibility: collapse;
+    
+  }
 }
+
 .carousel-container{
 height: 250px;
 align-items: center;
+
 
 h2{ 
   text-align: center;
@@ -388,6 +394,10 @@ p{
 }
 
 }
+.hola{
+  width: 370px;
+  height: 50vh;
+}
 .carousel{
   width: 370px;
   align-items: center;
@@ -396,9 +406,7 @@ p{
   justify-content: center;
   position: relative;
   padding: 20px;
-  
  
 
-  
 }
 
