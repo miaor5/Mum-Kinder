@@ -280,7 +280,9 @@ a:hover{
 .community-mobile{
   visibility: collapse;
 }
-
+.community{
+  margin-top: -110vh;
+}
 @media (max-width:576px){
   .signupnow{
     width: 100%;
@@ -367,18 +369,20 @@ a:hover{
     padding-left: 20px;
   
   }
-
-  .nav li a:hover{
-    background-color: red;
-  }
-
   .community-mobile{
     visibility: visible;
+    margin-bottom: 110vh;
+    
+    
   }
   .community{
     visibility: collapse;
-    
   }
+ 
+  .singup{
+    margin-top: -90vh;
+  }
+ 
 }
 
 .carousel-container{
