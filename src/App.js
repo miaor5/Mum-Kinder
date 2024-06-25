@@ -34,7 +34,10 @@ function App() {
                   className="search-mobile"
                 />
               </div>
-              <li className="hamburger-icono">icono hamburgesa</li>
+              <li className="hamburger-icono">
+                <p>-</p>
+                <i class="fa-solid fa-bars"></i>
+              </li>
             </li>
           </ul>
           <ul className="list">
