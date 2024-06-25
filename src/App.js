@@ -226,9 +226,11 @@ function App() {
             Sign up to our mailing list & hear about our latest offers & new
             products, plus enjoy £25 off your next order over £250
           </p>
-          <a className="signup-bottom" href="">
-            Sign up here
-          </a>
+          <div>
+            <a className="signup-bottom" href="">
+              Sign up here
+            </a>
+          </div>
         </div>
         <div className="footer-links">
           <Footer
