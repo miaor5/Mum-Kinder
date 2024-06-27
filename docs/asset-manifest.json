@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "./static/css/main.6bd27d75.css",
+    "main.js": "./static/js/main.29f51975.js",
+    "static/js/453.3c5eaca6.chunk.js": "./static/js/453.3c5eaca6.chunk.js",
+    "static/media/pushchair.jpg": "./static/media/pushchair.1b77e28658710cbdc8c2.jpg",
+    "static/media/FeedingWeaning.jpg": "./static/media/FeedingWeaning.7c2d12f0bc817452b5ec.jpg",
+    "index.html": "./index.html",
+    "main.6bd27d75.css.map": "./static/css/main.6bd27d75.css.map",
+    "main.29f51975.js.map": "./static/js/main.29f51975.js.map",
+    "453.3c5eaca6.chunk.js.map": "./static/js/453.3c5eaca6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bd27d75.css",
+    "static/js/main.29f51975.js"
+  ]
+}
