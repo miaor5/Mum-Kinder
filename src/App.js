@@ -9,6 +9,7 @@ import FeedingWeaning from './images/FeedingWeaning.jpg';
 import ToysGifts from './images/ToysGifts.jpg';
 import bathing from './images/bathing.jpg';
 import { Carousel } from 'nuka-carousel';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 function App() {
   return (
