@@ -5,7 +5,10 @@
   height: 5vh;
 }
 .page{
-  height: 100%;
+  width: 100%;
+}
+.header{
+  width: 100%;
 }
 
 .signupnow{
@@ -304,7 +307,7 @@ a:hover{
   .signupnow{
     width: 100%;
     background-color: yellow;
-    width: fit-content;
+  
   }
   .search-mobile{
    visibility: hidden;
@@ -312,8 +315,8 @@ a:hover{
   .myaccount{
     flex-direction: row-reverse;
     padding: 0px;
-    margin: 2vw;
-    width: fit-content;
+    margin: 5vw;
+    
   }
   .hamburger-icono{
     visibility: visible;
@@ -329,6 +332,7 @@ a:hover{
   }
   .logo{
     width: 40%;
+    font-size: 15px;
   }
   .myaccount{
     justify-content: space-between;
@@ -340,17 +344,22 @@ a:hover{
   .top-body{
    height: 100%;
    width: 100%;
-   flex-direction: column-reverse;}
+   flex-direction: column-reverse;
+  justify-content: center;
+  
+}
    
    
-   
-
  .top-body_text{
-  width: fit-content;
+  width: 100%;
   text-align: center;
-  height: 80vh;
+  height: 100%;
   margin-left: 5px;
   margin-right: 5px;
+ }
+
+ .top-body_image{
+  width: 100%;
  }
  .image{
   
