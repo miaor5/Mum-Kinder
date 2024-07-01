@@ -180,8 +180,12 @@ border-radius: 5%;
 
 .community-text{
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 5px;
+}
+.community-p{
+  text-align: center;
+  font-size: 15px;
 }
 
 .community-title{
@@ -334,11 +338,15 @@ a:hover{
   }
   .logo{
     width: 40%;
-    font-size: 15px;
+    font-size: 20px;
   }
   .myaccount{
     justify-content: space-between;
     gap: 1vw;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    align-items: center;
+    height: 100%;
   }
   .myaccount-links{
     font-size: 1rem;
@@ -348,6 +356,7 @@ a:hover{
    width: 100%;
    flex-direction: column-reverse;
   justify-content: center;
+  margin-top: 25px;
   
 }
  .top-body_text{
@@ -425,14 +434,6 @@ a:hover{
 .carousel-container{
 height: 250px;
 align-items: center;
-
-
-h2{ 
-  text-align: center;
-}
-p{
-  text-align: center;
-}
 
 }
 .hola{

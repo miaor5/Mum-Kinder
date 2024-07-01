@@ -150,8 +150,8 @@ function App() {
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8bczkihoysU59qlGprpN2PQ_ufv3Nf5iaCg&s"
                 className="hola"
               />
-              <h2>Let's Talk Car Seat Appointments</h2>
-              <p>
+              <h2 className="community-p">Let's Talk Car Seat Appointments</h2>
+              <p className="community-p">
                 Helping you find and fit your perfect car seat, whether it is
                 their first or next stage
               </p>
@@ -162,8 +162,8 @@ function App() {
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbbBz4nRiJMKdj-3gZ4RXddiIBE8Y9mbjjzntTGpddsA&s"
                 className="hola"
               />
-              <h2>Loved for live</h2>
-              <p>
+              <h2 className="community-p">Loved for live</h2>
+              <p className="community-p">
                 Give pre-loved baby products a new lease of life with our range
                 of services
               </p>
@@ -173,8 +173,8 @@ function App() {
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ91uYi9YWe1gcuiRcjPvD9-apySvk_6uJAhw&s"
                 className="hola"
               />
-              <h2>Trade-In</h2>
-              <p>
+              <h2 className="community-p">Trade-In</h2>
+              <p className="community-p">
                 Receive a voucher when you return your used Mamas & Papas
                 pushchair for it to be lovingly restored and re-sold
               </p>
